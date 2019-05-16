@@ -1,0 +1,201 @@
+
+/*
+Theme Name: Teedee
+Theme URI: http://teedee.html
+Author: Omotuka Busayo
+Author URI: https://wordpress.org/
+Description: A fashion Designer Website
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+body {
+background-image: url("assets/images/UI.jpg");
+background-color: #f6f6f6;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.top {
+background-color: #37484f;
+height: 80px;
+border-bottom: #a94642 3px solid;
+}
+
+#navTop h6{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#navTop span {
+    color: #cb4c38;
+    
+}
+
+#navList {
+    margin-right: 30px;
+}
+
+#navList a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.active a:active {
+    color: #cb4c38;
+}
+
+/* container section */
+.banner {
+    background-image: url("assets/images/coding 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    height: 500px;
+}
+
+.banner_1 h3 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px 0px 0px; 
+}
+
+.banner_1 p {
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px 0px 0px;
+}
+
+#para_1 p{
+ padding-top: 20px;
+ font-size: 1.3em;
+ color: #ffffff;
+ font-weight: 700;
+ text-align: center;
+}
+
+#form {
+    background-color: #3a4955;
+
+}
+
+
+
+#form_1 {
+    padding-top: 30px;
+    margin-right: px;
+}
+
+
+#three_column {
+    background-color:  #f6f6f6;
+}
+
+
+/* html 5 ICON */
+#icons, #icons_2, #icons_3 {
+    padding: 50px 0px 30px 30px;
+}
+
+#icons, #icons_2, #icons_3 {
+    animation-duration: 5s;
+    -webkit-animation-delay: 1s;
+}
+
+#icons i {
+    font-size: 8em;
+    color: #d9592b;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#icons h6 {
+    font-size: 1em;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#icons p {
+    font-size: 0.8em;
+    color: #000;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* CSS 3 ICON */
+#icons_2 i {
+    font-size: 8em;
+    color: #475a9c;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#icons_2 h6 {
+    font-size: 1em;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#icons_2 p {
+    font-size: 0.8em;
+    color: #000;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Graphic Design ICON */
+#icons_3 i {
+    font-size: 8em;
+    color: #000000;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#icons_3 h6 {
+    font-size: 1em;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#icons_3 p {
+    font-size: 0.8em;
+    color: #000;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+footer {
+    background-color: #d9592b;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+
+
